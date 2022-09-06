@@ -1,9 +1,11 @@
-exports.rwd = function() {
-  console.log("This is a message from the demo package");
-}
-
 export default class Rwd {
   constructor(settings = {}) {
+
+    // Stop script if we are not in a browser context.
+    if (typeof window !== "object") {
+      throw new Error('RWDjs module must be run in a browser context.');
+    }
+
     // Merge user's settings.
     this.settings = {
       breakpoints: {
