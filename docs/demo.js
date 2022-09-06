@@ -1,4 +1,4 @@
-import Rwd from '../src/rwd.js';
+import Rwd from './rwd.js';
 
 const log = document.getElementById('log');
 
