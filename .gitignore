@@ -1,0 +1,10 @@
+/.idea/.gitignore
+/node_modules/.package-lock.json
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/modules.xml
+/node_modules/http/package.json
+/package-lock.json
+/.idea/inspectionProfiles/Project_Default.xml
+/node_modules/http/README.md
+/.idea/rwdjs.iml
+/.idea/vcs.xml
