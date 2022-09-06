@@ -1,0 +1,23 @@
+{
+  "name": "rwdjs",
+  "version": "1.0.0",
+  "description": "Execute JS code from given breakpoints.",
+  "main": "rwd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyril-lamotte/rwdjs.git"
+  },
+  "keywords": [
+    "rwd",
+    "js"
+  ],
+  "author": "Cyril Lamotte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyril-lamotte/rwdjs/issues"
+  },
+  "homepage": "https://github.com/cyril-lamotte/rwdjs#readme"
+}
