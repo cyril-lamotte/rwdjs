@@ -6,6 +6,8 @@
 npm install rwdjs
 ```
 
+## Usage
+
 Execute JS code from given breakpoints.
 
 ```html
