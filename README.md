@@ -1,5 +1,11 @@
 # rwdjs
 
+## Install
+
+```
+npm install rwdjs
+```
+
 Execute JS code from given breakpoints.
 
 ```html
