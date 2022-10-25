@@ -8,3 +8,5 @@
 /node_modules/http/README.md
 /.idea/rwdjs.iml
 /.idea/vcs.xml
+/node_modules
+/.idea

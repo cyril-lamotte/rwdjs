@@ -1,8 +1,9 @@
 import Rwd from './rwd.js';
 
+// Get dom element.
 const log = document.getElementById('log');
 
-const rwd = new Rwd({
+Rwd.init({
   breakpoints: {
     992: {
       name: 'small',
@@ -10,11 +11,11 @@ const rwd = new Rwd({
       type: 'max-width',
       match: () => {
         // Matching code.
-        log.innerHTML += "<p>Breakpoint reached.</p>";
+        log.innerHTML += "<li>Breakpoint reached.</li>";
       },
       else: () => {
-        // When breakpoint is not matching.
-        log.innerHTML += '<p>Breakpoint not active, execute the "else" code</p>';
+        // Breakpoint is not matching.
+        log.innerHTML += '<li>Breakpoint not active, execute the "else" code</li>';
       }
     }
   }

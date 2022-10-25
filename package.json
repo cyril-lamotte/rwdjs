@@ -1,11 +1,13 @@
 {
   "type": "module",
   "name": "rwdjs",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Execute JS code from given breakpoints.",
   "main": "demo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/cyril-lamotte/rwdjs/issues"
   },
-  "homepage": "https://github.com/cyril-lamotte/rwdjs#readme"
+  "homepage": "https://github.com/cyril-lamotte/rwdjs#readme",
+  "devDependencies": {
+    "vite": "^3.1.8"
+  }
 }
