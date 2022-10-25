@@ -1,5 +1,7 @@
 # rwdjs
 
+Execute JS code from given breakpoints.
+
 ## Install
 
 ```
@@ -7,8 +9,6 @@ npm install rwdjs
 ```
 
 ## Usage
-
-Execute JS code from given breakpoints.
 
 ```html
 <ol id="log"></ol>
