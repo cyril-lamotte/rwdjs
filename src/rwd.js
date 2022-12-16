@@ -18,7 +18,7 @@ export default class Rwd {
 
     for (const [bp, properties] of Object.entries(this.settings.breakpoints)) {
       // Build the media querie object.
-      const mediaQ = window.matchMedia(`(${properties.type}: ${bp}px`);
+      const mediaQ = window.matchMedia(`(${properties.type}: ${bp}px)`);
 
       // Execute code at load.
       if (typeof properties.match === 'function') {
