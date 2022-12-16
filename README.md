@@ -39,6 +39,10 @@ Rwd.init({
 ```
 ## Changelog
 
+### 2.0.2
+
+Fix iOS issue with media query syntax.
+
 ### 2.0.0
 
 Init function is now static, Rwd can be executed without create instance.
