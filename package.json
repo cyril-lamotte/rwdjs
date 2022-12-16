@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "rwdjs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Execute JS code from given breakpoints.",
   "main": "demo.js",
   "scripts": {
